@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+
+.jumbotron .display-4{
+    margin: 70px;
+}
+
+
+.section-kontent{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.section-kontent .card{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+@media(max-width:900px) {
+
+    .jumbotron{
+        /* background-color: black; */
+        padding: 20px 20px;
+        margin:30px;
+        color: blue;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 20px;
+    
+   
+    }
+   .navbar-nav{
+       text-transform: uppercase;
+   }
+
+    img{
+       width: 100px;
+   }
+
+
+   
+ }
+
+
+
